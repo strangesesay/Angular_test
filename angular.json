@@ -19,10 +19,10 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              "assets",
+              "src/assets",
               {
                 "glob": "**/*",
-                "input": "public"
+                "input": "src/public"
               }
             ],
             "styles": [
@@ -78,11 +78,10 @@
             ],
             "tsConfig": "tsconfig.spec.json",
             "assets": [
-              "assets",
               "src/assets",
               {
                 "glob": "**/*",
-                "input": "public"
+                "input": "src/public"
               }
             ],
             "styles": [
